@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Using this existing Apollo Server repo start the dev server with `npm run dev`.
+1. Using this existing Apollo Server repo, install dependencies with `npm i`, then start the dev server with `npm run dev`.
 2. The source data you will be using is already fetched and added to the GraphQL "context," ready to be used by the resolvers.
 3. The resolver code is found in the `EDIT.js` file.
 4. There already exists a `pokemonMany` resolver that lists all of the pokemon. Create a `pokemonOne` resolver that takes an `id` argument and returns a single pokemon.
